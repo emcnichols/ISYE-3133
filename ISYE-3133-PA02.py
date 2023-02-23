@@ -8,4 +8,6 @@ cost_data_df = pd.read_csv("cost_data.csv")
 product_data_df = pd.read_csv("product_data.csv")
 volume_data_df = pd.read_csv("volume_data.csv")
 
-print("hello")
+# Getting the months
+for month in range(len(cost_data_df)):
+	print(month)
