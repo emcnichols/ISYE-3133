@@ -7,3 +7,5 @@ demand_data_df = pd.read_csv("demand_data.csv")
 cost_data_df = pd.read_csv("cost_data.csv")
 product_data_df = pd.read_csv("product_data.csv")
 volume_data_df = pd.read_csv("volume_data.csv")
+
+print("hello")
